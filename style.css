@@ -1,0 +1,178 @@
+body {
+  background: linear-gradient(#f2d18e, #aadae2);
+  height: 1100px;
+  margin: none;
+}
+
+#main-circle {
+  height: 600px;
+  width: 600px;
+  background: brown;
+  border-radius: 50%;
+  margin: auto;
+  border: 30px solid black;
+  position: relative;
+  top: 100px;
+}
+
+.game-button {
+  height: 290px;
+  width: 290px;
+  position: relative;
+}
+
+#green {
+  background: #11842a;
+  float: left;
+  border-top-left-radius: 100%;
+  border-right: 10px solid black;
+  border-bottom: 10px solid black;
+}
+
+#red {
+  background: #840505;
+  left: 300px;
+  border-top-right-radius: 100%;
+  border-left: 10px solid black;
+  border-bottom: 10px solid black;
+}
+
+#yellow {
+  background: #c6b921;
+  border-bottom-left-radius: 100%;
+  float: left;
+  border-right: 10px solid black;
+  border-top: 10px solid black;
+}
+
+#blue {
+  background: #2d4c99;
+  left: 300px;
+  border-bottom-right-radius: 100%;
+  border-left: 10px solid black;
+  border-top: 10px solid black;
+}
+
+#inner-circle {
+  height: 300px;
+  width: 300px;
+  background: radial-gradient(#848484, black);
+  border-radius: 50%;
+  margin: auto;
+  position: relative;
+  top: -470px;
+  border: 20px solid black;
+}
+
+.clear {
+  clear: both;
+}
+
+#switch-box {
+  height: 15px;
+  width: 40px;
+  background: black;
+  margin: auto;
+  position: relative;
+  top: 30px;
+  border-radius: 3px;
+}
+
+#switch-button {
+  height: 9px;
+  width: 20px;
+  background: blue;
+  position: relative;
+  top: 2px;
+  border-radius: 2px;
+}
+
+.on {
+  left: 20px;
+}
+
+#display {
+  height: 55px;
+  width: 100px;
+  background: black;
+  margin: auto;
+  position: relative;
+  top: 20px;
+  border-radius: 30px;
+}
+
+#display-digit {
+  color: red;
+  text-align: center;
+  font-size: 40px;
+  position: relative;
+  top: 3px;
+  font-family: arial;
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  font-family: helvetica;
+  letter-spacing: 10px;
+  position: relative;
+  top: 10px;
+  text-shadow: 2px 1px black;
+}
+
+#small-buttons {
+  width: 150px;
+  margin: auto;
+  position: relative;
+  left: 50px;
+  top: -40px;
+}
+
+.small-button {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  float: left;
+  position: relative;
+  top: 10px;
+  right: 20px;
+  border: 4px solid black;
+}
+
+p {
+  font-family: garamond;
+  font-weight: bold;
+  position: relative;
+  color: white;
+}
+
+#start-button {
+  background: #7c0909;
+}
+
+.start-on {
+  background: red;
+}
+
+#strict-button {
+  background: #a3a81a;
+}
+
+.strict-on {
+  background: yellow;
+}
+
+#start-caption {
+  top: 48px;
+  left: 12px;
+}
+
+#strict-caption {
+  top: 50px;
+  right: 16px;
+}
+
+.pressed {
+  left: -17px;
+}
